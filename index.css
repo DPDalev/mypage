@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-    color: #384252;
+    /* color: #384252; */
     background-color: #84b3ad;
 }
 
@@ -18,7 +18,7 @@ ul {
     padding: 0;
     height: 40px;
     line-height: 30px;
-    background-color: rgb(37, 165, 44);
+    background-color: rgb(152, 165, 37);
     text-align: center
 }
 
@@ -35,12 +35,16 @@ li {
 li:hover {
     background: #135e3e;
     padding: 5px 0;
-    color: rgb(201, 102, 22)
+    color: rgb(152, 165, 37);
 }
 
-li a {
+
+a {
     text-decoration: none;
-    color: #ffffff;
+}
+
+h2 {
+    vertical-align: center
 }
 
 img {
